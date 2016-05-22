@@ -53,7 +53,7 @@ connectionsReadStream.on("data", function (connection) {
 });
 ```
 
-## Minimum transfer times (optionally)
+## Transfer times (optionally)
 To specify the minimum transfer time you should add the ''minimumTransferTime'' argument to the query:
 ```javascript
 var query = {
